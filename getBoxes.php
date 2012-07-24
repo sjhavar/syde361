@@ -67,7 +67,8 @@ function get_Size($size) {
 	$selectedBox = $resultArr['Box_ID'];
 	$selectedComp = $selectedCol . $selectedBox;
 
-	echo ($selectedCol . " | " . $selectedBox);
+	//echo ($selectedCol . " | " . $selectedBox);
+  echo "test";
 	
 	//TESTING PHP SERIAL SCRIPT
 	//require("php_serial.class.php");
